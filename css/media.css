@@ -1,0 +1,28 @@
+/* common */
+@media (max-width: 1227px) {
+    html {
+        font-size: 12px;
+    }
+
+
+    /* header */
+    .header__logo_pic img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 10px;
+    }
+
+    header nav {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 10px;
+    }
+}
