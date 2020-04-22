@@ -14,15 +14,78 @@
 @media (max-width: 991px) {
     html {
         font-size: 10px;
+
     }
 
     header nav {
         display: none;
+    }
+       /*Карточки дома - index5*/
+    .house-card__rooms{
+        display: none;
+       }
+    .house-card_radio_group{
+        display: none;
+    }
+    .house-card__price-include__cont{
+    flex-direction: row;
+    }
+    .house-card__price-include__cont-pics {
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    }
+
+    .house-card__price-include__cont-text {
+
+    flex-flow: column wrap;
+    }
+    .house-card__price-include{
+    margin: 0;
     }
 }
 
 @media (max-width: 767px) {
     html {
         font-size: 10px;
+    }
+     h2{
+            font-weight: 500;
+            font-size: 1.6rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+
+    /*Карточки дома - index5*/
+    .house-card__rooms{
+        display: none;
+       }
+    .house-card_radio_group{
+        display: none;
+    }
+    #house-card__price-include_h2{
+        border:none;
+    }
+    .house-card__price-include__cont{
+        flex-direction: row;
+    }
+    .house-card__price-include__cont-pics {
+        justify-content: flex-end;
+        flex-flow: column wrap;
+    }
+    .house-card__price-include__cont-pics img{
+        width: 70px;
+        height: auto;
+    }
+    .house-card__price-include__cont-text {
+        flex-flow: column wrap;
+    }
+    .house-card__price-include{
+        margin: 0;
+    }
+
+    .house-card__call-back-desc{
+        display: none;
     }
 }

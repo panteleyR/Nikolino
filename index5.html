@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Николино Премьер</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="https://kit.fontawesome.com/6f2962b6cc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,900&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="header__logo">
+        <a href="#" class="header__logo_pic"> <img src="./img/logo (2).png"></a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li class="menu__item"><a href="#">О поселке</a></li>
+          <li class="menu__item"><a href="#">Генплан</a></li>
+          <li class="menu__item" id="nav-active"><a href="#">Дома</a></li>
+          <li class="menu__item"><a href="#">Инфраструктура</a></li>
+          <li class="menu__item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__call-back">
+        <a class="header__call-back__phone" >8-800-100-13-43</a>
+        <div class=header__call-back__phone__btn-header>
+          <a href="#" >Обратный звонок</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="house-card">
+        <div class="houses-head">
+          <div class="back-to-main" id="house-card__back-to-main" style="font-size:0.8rem;">
+            <i class="fas fa-arrow-left" ></i>
+            <a href="#" class="back-to-main__a">к списку домов</a>
+          </div>
+          <div class="house-card__head__name-price">
+            <h1 id="house-card__h1">баухаус - премьер</h1>
+            <div class="house-card__dashed"></div>
+            <p class="house-card__head-price">от <span id="house-card__start-price">4 999 108</span> ₽</p>
+          </div>
+        </div>
+        <div class="house-card__slider-radio">
+        <div class="slider">
+          <input type="radio" name="switch" id="slider_btn1" checked>
+          <input type="radio" name="switch" id="slider_btn2">
+          <input type="radio" name="switch" id="slider_btn3">
+          
+          <div class="switch">
+            <label for="slider_btn1"></label>
+            <label for="slider_btn2"></label>
+            <label for="slider_btn3"></label>
+          </div>
+          <div class="slider-inner">
+            <div class="slides">
+              <img src="https://www.roscosmos.ru/media/img/foto/2018/wallpapers/0014.jpg"/>
+              <img src="http://conceptartworld.com/wp-content/uploads/2013/10/Mathieu_Latour-Duhaime_Concept_Art_Thief_01-680x340.jpg"/>
+              <img src="http://conceptartworld.com/wp-content/uploads/2013/10/Mathieu_Latour-Duhaime_Concept_Art_Thief_07-680x340.jpg"/>
+            </div>
+          </div>
+        </div>
+         <div class="house-card_radio_group">
+  <div class="house-card_radio_group-item">
+    <input id="radio-1" type="radio" name="radio" value="1" checked>
+    <label for="radio-1">Планировка</label>
+  </div>
+  <div class="house-card_radio_group-item">
+    <input id="radio-2" type="radio" name="radio" value="2">
+    <label for="radio-2">Фасад</label>
+  </div>
+  </div>
+</div>
+<div class="house-card__square">
+  <p class="house-card__square__p">Площадь дома: <span class="house-card__square_num" id="house-card__square-house">108 м²</span></p>
+  <p class="house-card__square__p">Жилая площадь: <span class="house-card__square_num" id="house-card__square-life">99 м²</span></p>
+  <p class="house-card__square__p3">Терраса: <span class="house-card__square_num" id="house-card__square-terrace">8 м²</span></p>
+</div>
+  <div class="house-card__rooms">
+  <p class="house-card__rooms__p"><span class="house-card__square_num" id="house-card__square-bathroom">2 санузла</span></p>
+  <p class="house-card__rooms__p"><span class="house-card__square_num" id="house-card__square-bathroom">5 комнат</span></p>
+  <p class="house-card__rooms__p"><span class="house-card__square_num" id="house-card__square-family">Подходит для семьи из 6 человек</span></p>
+  </div>
+
+  <div class="house-card__price-include"> 
+    <h2 id="house-card__price-include_h2">В стоимость дома <wbr> входит</h2>
+    <div class="house-card__price-include__cont">
+      <div class="house-card__price-include__cont-pics">
+        <img src="./img/price_include1.png">
+        <img src="./img/price_include2.png">
+        <img src="./img/price_include3.png">
+        <img src="./img/price_include4.png">
+      </div>
+      <div class="house-card__price-include__cont-text">
+        <p>Земельный участок (4 сотки)</p>
+        <p>Забор</p>
+        <p>Подключение к инженерным сетям (кроме газа)</p>
+        <p>Площадка для парковки автомобиля</p>
+      </div>
+    </div>
+  </div>
+  <div class="house-card__options">
+    <h2 id="house-card__options_h2">Дополнительные <wbr> опции</h2>
+      <div class="house-card__options__radio-cont">
+        <div class="house-card__options__radio">
+  <input id="house-card__radio-1" type="radio" name="radio" value="1" checked>
+  <label for="house-card__radio-1">Подключение к сетям <wbr> газоснабжения</label>
+        </div>
+        <div class="house-card__options__radio">
+  <input id="house-card__radio-2" type="radio" name="radio" value="2">
+  <label for="house-card__radio-2">Внутренняя отделка</label>
+        </div>
+      </div>
+      <div class="house-card__options__hr"><hr size="8" width="240" color="#EFB51F" align="left" /></div>
+      <h2 id="house-card__options_h2-price">Предварительная <wbr>цена</h2>
+        <p class="house-card__preliminary-price__p"><span id="house-card__preliminary-price">7 108 999</span> ₽</p>
+  </div>
+
+
+<div class="call-back-desc">
+  <div class="call-back-desc__manager-cont">
+    <img src="./img/manager_photo.png">
+    <p class="call-back-desc__manager-name">Ирина</p>
+    <p class="call-back-desc__manager-post">Менеджер <wbr>по продажам</p>
+  </div>
+  <div class="call-back-desc__text-cont">
+    <h2 id="house-card__call-back-desc__h2"> Получить <wbr>точный расчет</h2>
+
+      <label class="call-back-desc__text-cont__chose-time" for="call-back-desc__text-cont__chose-time__input" id="start-chose-time">Выбрать время звонка</label>
+      <input type="checkbox" id="call-back-desc__text-cont__chose-time__input">
+      
+
+<div class="call-back-desc__text-cont__input">
+<div class="call-back-desc__text-cont__input__column">
+<input type="text" id="call-back-desc__text-cont__input-date" name="call-back-date" value=" ДД/ММ">
+<input type="text" id="call-back-desc__text-cont__input-time" name="call-back-time" value=" 00:00">
+<div class="dropdown">
+  <button class="dropbtn">(GMT+3:00) Краснодар</button>
+  <div class="dropdown-content">
+    <a href="#">Первая строка</a>
+    <a href="#">Вторая строка</a>
+    <a href="#">Третья строка</a>
+  </div>
+</div>
+</div>
+</div><div class="call-back-desc__text-cont__input__column">
+<input type="text" id="call-back-desc__text-cont__input-phone" name="call-back-phone" value=" +7">
+<input type="submit" id="call-back-desc__text-cont__submit" class="btn__call-back" value="Перезвоните мне">
+
+<label class="call-back-desc__text-cont__consent" for="call-back-desc__text-cont__consent__input" id="consent-processing">Согласие на обработку ПД</label>
+      <input type="checkbox" id="call-back-desc__text-cont__consent__input">
+  </div>
+</div>
+
+        
+  
+    </main>
+  </body>
+</html>
+
