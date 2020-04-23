@@ -803,29 +803,29 @@ margin-left: 10%;
 
 .switch label {
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
   cursor: pointer;
   margin: 0 3px;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
   border-radius: 50%;
-  border: 4px solid #979797;
+  border: 3px solid #979797;
   background-color: transparent;
 }
 
 #slider_btn1:checked~.switch label[for="slider_btn1"] {
   background-color: #F8C935;
-  border: 4px solid #F8C935;
+  border: 3px solid #F8C935;
 }
 
 #slider_btn2:checked~.switch label[for="slider_btn2"] {
   background-color: #F8C935;
-  border: 4px solid #F8C935;
+  border: 3px solid #F8C935;
 }
 
 #slider_btn3:checked~.switch label[for="slider_btn3"] {
   background-color: #F8C935;
-  border: 4px solid #F8C935;
+  border: 3px solid #F8C935;
 }
 
 .slider-inner {
@@ -1157,14 +1157,15 @@ margin:1% 5% 0 5%;
 	
 }
 
-#house-preview-1__about__btn {
+.btn__purple-border-dashed {
 	color: #7000FF;
 	font-weight: bold;
 	font-size: 0.52rem;
 	text-transform: uppercase;
 	border-bottom: 1px dashed #7000FF;
-	padding: 2% 0;
+	padding: 1% 0;
 	align-self: center;
+	letter-spacing: 1px;
 	
 }
 
@@ -1990,7 +1991,84 @@ font-family: Montserrat;
 
 /*9 - Новый пост (новость)*/
 
+#new-post__back-to-main{
+	width: 14%;
+	padding-left: 3%;
+}
+
+.new-post__name-cont{
+	max-width: 622px;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+
+}
+
+#new-post__date{
+font-size: 0.7rem;
+line-height: 15px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
 #new-post__h1{
 	font-weight: 500;
-font-size: 2.05rem;
+	font-size: 2.05rem;
+	color: #000000;
+	max-width: 622px;
+	margin: 0;
+	background: none;
+    -webkit-background-clip: none; 
+    -webkit-text-fill-color: #000000;
+	text-transform: none;
+}
+
+#new-post__post-text{
+	font-weight: normal;
+	font-size: 1.05rem;
+	margin: 4% 17% 2% 17%;
+}
+
+.new-post__another-news{
+	background: #FFFFFF;
+	box-shadow: 0px 63px 92px rgba(201, 189, 171, 0.7);
+	margin-top: 2%;
+	padding: 5%;
+
+}
+.new-post__another-news__cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#new-post__another-news__h2{
+	font-weight: 500;
+font-size: 35px;
+margin-bottom: 3%;
+}
+
+.new-post__another-news__preview{
+	display: flex;
+	flex-direction: column;
+	max-width: 308px;
+	justify-content: flex-start;
+}
+
+.new-post__another-news__preview__pic{
+	width: 98%;
+	height: auto;
+
+}
+
+#new-post__another-news__preview__title{
+	font-weight: 500;
+font-size: 1.05rem;
+color: #000000;
+}
+
+#new-post__another-news__preview__btn{
+align-self: flex-start;
+
 }
