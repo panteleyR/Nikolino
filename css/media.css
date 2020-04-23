@@ -56,6 +56,38 @@
             text-align: center;
         }
 
+        /*страница поста*/
+
+    .new-post-head{
+        flex-direction: column;
+    }
+
+    .back-to-main__a{
+        width: 95%;
+
+    }
+
+    .new-post-head{
+    padding: 0;
+    }
+
+    .new-post__text-header-cont{
+        background-color: #FFFFFF;
+        padding: 3%;
+        margin-left: 10%;
+    }
+
+    #new-post__post-text{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .new-post__another-news{
+        display: none;
+    }
+    
+
 
     /*Карточки дома - index5*/
     .house-card__rooms{
