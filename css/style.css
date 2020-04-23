@@ -1988,6 +1988,101 @@ font-family: Montserrat;
  color: white;
 }
 
+/*новости*/
+
+.news__header-h2 {
+font-weight: 500;
+font-size: 2.05rem;
+line-height: 43px;
+text-transform: lowercase;
+align-self: flex-end;
+padding-bottom: 3%;
+}
+
+.news__name-cont{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+
+}
+
+.news-preview__cont{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+margin:0 3%;
+flex-flow: row wrap;
+
+}
+
+.new-preview-1{
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	width: 26%;
+	justify-content: center;
+	margin: 2% 2%;
+	padding: 1%;
+	transition-property: width height;
+transition: .28s;
+	}
+
+.new-preview-1:hover {
+background: #FFFFFF;
+box-shadow: 0px 24px 104px #BDB5A9;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
+
+.new-preview-1__pic{
+
+align-self: center;
+width: 100%;
+height: auto;
+}
+
+
+
+.new-preview-1__about-cont{
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+margin:1% 5% 0 5%;	
+}
+
+.new-preview-1__about {
+	font-size: 1.05rem;
+	font-weight: 500;
+	padding-top: 2%;
+	margin: 0;
+}
+
+
+.new-preview-1__btn {
+	align-self: left;
+	overflow: hidden;
+	width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*9 - Новый пост (новость)*/
 
@@ -2032,6 +2127,7 @@ text-transform: uppercase;
 	color: #000000;
 	max-width: 622px;
 	margin: 0;
+	padding-bottom: 5%;
 	background: none;
     -webkit-background-clip: none; 
     -webkit-text-fill-color: #000000;

@@ -20,6 +20,11 @@
     header nav {
         display: none;
     }
+
+    .new-preview-1{
+    width: 40%;
+    }
+
        /*Карточки дома - index5*/
     .house-card__rooms{
         display: none;
@@ -73,7 +78,7 @@
 
     .new-post__text-header-cont{
         background-color: #FFFFFF;
-        padding: 3%;
+        padding: 5%;
         margin-left: 10%;
     }
 
