@@ -21,6 +21,22 @@
         display: none;
     }
 
+    /*Footer*/
+   .footer_nav{
+    display: none;
+   }
+
+   .footer_callme{
+    display: none;
+   }
+
+
+
+    /*Главная*/
+
+
+    /*новости*/
+
     .new-preview-1{
     width: 40%;
     }
@@ -60,6 +76,12 @@
             text-transform: uppercase;
             text-align: center;
         }
+
+        /*новости*/
+
+    .new-preview-1{
+    width: 40%;
+    }
 
         /*страница поста*/
 

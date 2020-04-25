@@ -262,6 +262,149 @@ box-shadow: 0px 0px 32px rgba(201, 189, 171, 0.7);
 	opacity: 0.33;
 }
 
+/*foother*/
+.footer_cont{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	background: #232323;
+border-radius: 0px 0px 12px 12px;
+padding: 3% 2%;
+justify-content: space-around;
+}
+
+.footer_cont-row1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.footer_cont-row1__column{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer__logo{
+opacity: 0.26;
+}
+
+.footer_nav{
+	display: flex;
+	flex-direction: column;
+	flex-flow: row wrap;
+    justify-content: space-around;
+	width: 293px;
+}
+
+.footer_nav a {
+font-size: 0.94rem;
+color: #FFFFFF;
+letter-spacing: 0.177778px;
+font-weight: 400;
+padding: 3% 3%;
+}
+
+.footer_nav a:hover {
+background: #323232;
+mix-blend-mode: normal;
+border-radius: 17.5px;
+padding: 3% 3%;
+}
+
+.footer_c{	
+font-size: 0.94rem;
+color: #FFFFFF;
+opacity: 0.5;
+align-self: flex-start;
+letter-spacing: 0.177778px;
+font-weight: 300;
+
+}
+
+.footer_cont-row2{
+	display: flex;
+	flex-direction: column;
+	width: 271px;
+
+}
+
+#footer_email{
+border: 1px solid rgba(77, 85, 80, 1);
+box-sizing: border-box;
+border-radius: 90px;
+font-weight: 400;
+font-size: 0.94rem;
+padding: 3% 3%;
+text-align: center;
+background: linear-gradient(61.53deg,#F7C834, #79E16A); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+#footer_FZ{
+	color: #D8D8D8;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.222984);
+	font-size: 0.94rem;
+	color: #FFFFFF;
+	letter-spacing: 0.177778px;
+	font-weight: 400;
+	padding: 3% 0 2% 0;	
+	text-align: center;
+	align-self: flex-end;
+}
+
+.footer_cont-row3{
+	display: flex;
+	flex-direction: column;
+	width: 316px;
+
+}
+
+#footer_tel-num{
+	font-size: 2.23rem;
+	color: #FFFFFF;
+	align-self: flex-end;
+}
+
+#footer_callme{
+	color: #ffffff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.222984);
+	font-size: 0.94rem;
+	color: #FFFFFF;
+	letter-spacing: 0.177778px;
+	font-weight: 400;
+	padding: 3% 0 2% 0;	
+	text-align: center;
+	align-self: flex-end;
+}
+
+.footer_korchansky{
+	font-size: 0.94rem;
+	letter-spacing: 0.177778px;
+	font-weight: 400;
+	padding: 3% 0 2% 0;	
+	text-align: center;
+	align-self: flex-end;
+	color: #D8D8D8;
+	opacity: 0.51;
+}
+
+#footer_korchansky__a{
+	
+	border-bottom: 1px solid rgba(255, 255, 255, 0.222984);
+	font-size: 0.94rem;
+	letter-spacing: 0.177778px;
+	font-weight: 400;
+	padding: 3% 0 2% 0;	
+	text-align: center;
+	align-self: flex-end;
+	color: #D8D8D8;
+
+}
+
+
 /*Превью домов*/
 .main__house_preview__cont{
 display:flex;
@@ -579,11 +722,12 @@ flex-direction: row;
 margin: 51px 51px;
 align-items: flex-start;
 }
+
 .main__location__cont__head-text__ico{
 margin: 10px 45px;
 }
 
-#main__location__cont__head-text__h {
+#main__location__cont__head-text__h{
 	color: #000000;
 	margin-right: 45px;
 	font-size: 3.82rem;
@@ -593,7 +737,13 @@ margin: 10px 45px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin: 5% 10% 5% 10%;
+	margin: 5% 5%;
+	flex-flow: row;
+
+}
+
+.main__location__cont_img{
+	padding: 0;
 }
  
  .main__location__cont_pic-text{
@@ -645,6 +795,7 @@ justify-content: flex-start;
 font-size: 1.35rem;
 font-weight: normal;	
 }
+
 .call-us_text-top_black{
  color: #000000;
  margin: 0;
@@ -660,6 +811,7 @@ font-weight: normal;
 font-size: 7.11rem;
 margin: 0;
 }
+
 .call-us_social_text{
 	background: linear-gradient(61.53deg,#F7C834, #79E16A); 
     -webkit-background-clip: text; 
@@ -668,7 +820,6 @@ margin: 0;
     font-size: 3.23rem;
     margin: 2% 0;
 }
-
 
 /*О поселке*/
 
@@ -763,10 +914,10 @@ margin-left: 10%;
 
 .about_cont-video__pics__img{
 	border-radius: 50%;
-	    box-shadow: 12px 12px 0px 0px #DED8CE;
-	    width: 50%;
-	    height: auto;
-	    align-self: center;
+	box-shadow: 12px 12px 0px 0px #DED8CE;
+	width: 50%;
+	height: auto;
+	align-self: center;
 }
 
 .about_cont-video__pics__house{
@@ -2068,15 +2219,36 @@ margin:1% 5% 0 5%;
 }
 
 
+#news-btn-see-more{
+    padding: 1.5% 7%;;
+align-self: center;
+}
+
+.news-btn-see-more__cont {
+	width:100%;
+	padding-top: 1.8%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 
 
 
 
 
+/*map*/
 
+iframe{
+	width: 95%;
+	height: 449px;
+padding: 2%;
+border:none;
+}
 
-
+.i4ewOd-pzNkMb-haAclf{
+	display: none;
+}
 
 
 
